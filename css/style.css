@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i|Playfair+Display');
+
+body {
+	font: 300 18px/1.7 Lato, sans-serif;
+	background-color: #fff;
+	color: #1717177c;
+}
+
+/* Layout */
+.ba-container {
+	padding: 130px 100px;
+	max-width: 1600px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0 0 40px;
+}
+
+.ba-history {
+	background-color: #fff;
+	padding: 140px 138px 227px 120px;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 42px;
+	font-weight: 400;
+	color: #000;
+}
+
+.ba-first-letter::first-letter {
+	font-family: PlayfairDisplay, serif;
+	font-size: 110px;
+	font-weight: 400;
+	line-height: 0.7;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	float: left;
+	color: #000;
+}
+
+.ba-block-q {
+	font-style: italic;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.ba-discover {
+	font-size: 18px;
+	border: 2px solid rgb(234, 162, 88);
+	color: rgb(234, 162, 88);
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	padding: 20px 60px;
+	margin: 15px;
+}
+
+.ba-discover:hover {
+	color: #fff;
+	background-color: rgb(234, 162, 88);
+}
